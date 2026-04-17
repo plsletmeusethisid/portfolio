@@ -145,22 +145,23 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Throughout my 13 years of being an NCO, I never throught I'd actually see an enlisted soldier go out this far to create systems to improve the workflow of a Battalion...",
-    imgPath: "/images/roksb_logo.png",
-    logoPath: "/images/roksb_logo.png",
-    title: "Independent Software Development Contribution 1",
-    date: "November 2025 - January 2026",
+    review: "Given that he came in as a cloud security engineer with no prior AI or software development background, what he's built here is genuinely impressive. In a relatively short period he went from zero to a fully functional multi-agent RAG system with a real Teams integration, a REST API, and a solid security architecture",
+    imgPath: "/images/shinwoologo.png",
+    logoPath: "/images/shinwoologo.png",
+    title: "Cloud Security Engineer (Intern)",
+    date: "March 2026 - Present",
     responsibilities: [
-      "Built a fullstack application using Next.js, Appwrite, MongoDB, and CryptoJS to automate visitor clearance procedures.",
-      "Used Server-Sent Events (SSE) to deliver real-time dashboard updates to authorized personnel.",
-      "Reduced clearance communication time over radio by 80%, improving operational efficiency.",
+      "Designed and built a production RAG-based AI agent using Claude API and ChromaDB, deployed as a secured FastAPI REST API and integrated with Microsoft Teams via Power Automate.",
+      "Designed and documented a department-level access control architecture for future multi-agent expansion, including document tagging at ingestion and ChromaDB filtered retrieval",
+      "Configured AWS networking components, including VPC routing tables and Transit Gateway (TGW) connections for inter-network communication",
+      "Resolved infrastructure routing failures caused by misconfigured firewall placement and re-architected traffic routing to enforce centralized firewall control across network segments",
     ],
   },
   {
     review: "SGT Kim's contribution to S-3 will not go unnoticed. His application greatly reduced the work for our department and for other officers and NCOs.",
     imgPath: "/images/roksb_logo.png",
     logoPath: "/images/roksb_logo.png",
-    title: "Independent Software Development Contribution 2",
+    title: "Independent Software Development Contribution",
     date: "October 2024 - March 2025",
     responsibilities: [
       "Built a secure, real-time collaborative document editing system to replace outdated manual file transfers.",
@@ -199,42 +200,36 @@ const expLogos = [
 const testimonials = [
   {
     name: "MAJ Lee - ROKSB XO",
-    // mentions: "@estherhoward",
     review:
       "Kim identified a major coordination bottleneck in our unit and independently built a real-time document system to resolve it. He designed the architecture, access controls, and deployment end-to-end. The solution eliminated hours of daily manual work and improved information accuracy across 40–50 personnel.",
     imgPath: "/images/roksb_logo.png",
   },
   {
     name: "MAJ Lee, ROKSB S3 OIC",
-    // mentions: "@wadewarren",
     review:
       "In a resource-constrained military environment, Kim delivered a production-ready system that replaced a fragile manual workflow. He implemented structured permissions and centralized updates, significantly reducing errors and operational risk. His execution was both practical and scalable.",
     imgPath: "/images/roksb_logo.png",
   },
   {
-    name: "CPT Bruce - UNCSB S3 Officer",
-    // mentions: "@guyhawkins",
+    name: "S. Jang, Technical Manager",
     review:
-      "During briefings and operational coordination, Luy remained composed while interpreting complex discussions in real time. Even under urgency, he maintained clarity and professionalism. His presence helped facilitate smooth communication across ranks and responsibilities.",
-    imgPath: "/images/uncsb_logo.png",
+      "He’s a Cloud Security Engineer who consistently brings a security-first mindset while still getting practical solutions out the door. He’s been able to step outside his core domain—getting into system design and even AI-based architectures—without losing focus on things like access control, risk, and data protection. Overall, he’s someone with solid technical judgment who builds secure, scalable systems and can clearly explain trade-offs, which makes him easy to trust on both the engineering and security side",
+    imgPath: "/images/shinwoologo.png",
   },
   {
     name: "MAJ Terry - UNCSB S3 OIC",
-    // mentions: "@marvinmckinney",
     review:
       "Beyond literal translation, Kim demonstrated strong cultural awareness and contextual judgment. He ensured that tone, intent, and hierarchy were properly conveyed, which was essential in a structured military environment. His interpretations reflected both linguistic and situational understanding.",
     imgPath: "/images/uncsb_logo.png",
   },
   {
     name: "MSG Woo - ROKSB Security Platoon Sergeant",
-    // mentions: "@floydmiles",
     review:
       "Rather than accept inefficiency, Kim redesigned the whole entry clearance system. He identified the patterns in the clearance method and completely systematized it. The time savings and workflow improvements were immediate.",
     imgPath: "/images/roksb_logo.png",
   },
   {
     name: "LCDR Creen - UNCMAC JDO",
-    // mentions: "@albertflores",
     review:
       "In environments where miscommunication could have real consequences, Luy consistently performed with discipline and accountability. He prepared thoroughly, listened attentively, and ensured that all parties were aligned. He was a dependable bridge between language and action.",
     imgPath: "/images/uncmac_logo.png",

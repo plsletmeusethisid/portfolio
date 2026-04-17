@@ -49,14 +49,14 @@ const AppShowcase = () => {
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Ryde App Interface" />
+              <img src="/images/project1.png" alt="Cloud Misconfiguration Scanner" />
             </div>
             <div className="text-content">
               <h2>
-                Real-time File Sharing System
+                Cloud Misconfiguration Scanner
               </h2>
               <p className="text-white-50 md:text-xl">
-                An app built with Next.Js, Convex, Tiptap & Liveblocks for a real-time document editor to replace outdated file sharing mechanism.
+                Graph-based AWS security scanner with a custom DSL and multi-hop attack path detection built with Python.
               </p>
             </div>
           </div>
@@ -66,15 +66,15 @@ const AppShowcase = () => {
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
                   src="/images/project2.png"
-                  alt="Library Management Platform"
+                  alt="Live File Sharing System"
                 />
               </div>
-              <h2>Battalion Visitor Pass</h2>
+              <h2>Live File Sharing System</h2>
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/project3.png" alt="YC Directory App" />
+                <img src="/images/project3.png" alt="Horizon" />
               </div>
               <h2>Horizon - Modern banking platform</h2>
             </div>
