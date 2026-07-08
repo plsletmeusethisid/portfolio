@@ -101,8 +101,8 @@ const techStackImgs = [
     imgPath: "/images/logos/node.png",
   },
   {
-    name: "Interactive Developer",
-    imgPath: "/images/logos/three.png",
+    name: "AI Developer",
+    imgPath: "/images/logos/ai.png",
   },
   {
     name: "Project Manager",
@@ -130,7 +130,7 @@ const techStackIcons = [
     rotation: [0, -Math.PI / 2, 0],
   },
   {
-    name: "Interactive Developer",
+    name: "AI Developer",
     modelPath: "/models/three.js-transformed.glb",
     scale: 0.05,
     rotation: [0, 0, 0],

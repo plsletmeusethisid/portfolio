@@ -53,10 +53,10 @@ const AppShowcase = () => {
             </div>
             <div className="text-content">
               <h2>
-                Cloud Misconfiguration Scanner
+                CareerGraph Agent
               </h2>
               <p className="text-white-50 md:text-xl">
-                Graph-based AWS security scanner with a custom DSL and multi-hop attack path detection built with Python.
+                AI career agent that converts candidate background into structured career memory, parses job descriptions, retrieves cited evidence, ranks roles, flags risks, and learns from feedback
               </p>
             </div>
           </div>
@@ -69,14 +69,14 @@ const AppShowcase = () => {
                   alt="Live File Sharing System"
                 />
               </div>
-              <h2>Live File Sharing System</h2>
+              <h2>Cloud Misconfiguration Scanner</h2>
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
                 <img src="/images/project3.png" alt="Horizon" />
               </div>
-              <h2>Horizon - Modern banking platform</h2>
+              <h2>Live File Sharing System</h2>
             </div>
           </div>
         </div>
